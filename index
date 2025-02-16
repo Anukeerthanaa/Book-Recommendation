@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book Suggestion</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Find a Book Based on Your Age</h1>
+        <input type="number" id="ageInput" placeholder="Enter your age">
+        <button onclick="getBookSuggestions()">Get Suggestions</button>
+        <div id="bookList"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
